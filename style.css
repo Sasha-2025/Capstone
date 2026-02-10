@@ -77,3 +77,40 @@ img {
         background-attachment: scroll;
     }
 }
+
+.footer-cta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.cta-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.cta-item i {
+    font-size: 24px;
+    color: rgb(89, 152, 245);
+}
+
+.cta-item h3 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cta-item span{
+    font-size: 14px;
+    color: rgb(1, 139, 174);
+}
+
+.footer-section{
+background-color: #222;
+color: white;
+padding: 40px 0;
+}
